@@ -1,3 +1,130 @@
-/* цвет текста черный */
-/*  */
-/*  */
+:root {
+  --primary-text-color: #ffffff;
+  --title-text-color: #212121;
+  --paragraph-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: var(--primary-text-color);
+}
+
+/* цвет заглавного текста */
+/* цвет титульного текста */
+/* цвет для абзацев */
+/* акцент  #2196F3; */
+/* цвет ссылок color: rgba(255, 255, 255, 0.6); */
+
+/* вторичный цвет фона #F5F4FA; */
+/* цвет подвала #2F303A; */
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-text {
+  color: #000000;
+}
+
+/* Навигация по сайту */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/*Стили для index.html*/
+/*Hero*/
+
+.hero-title {
+  color: var(--paragraph-text-color);
+  background-color: #2f303a;
+}
+
+/*Характеристика*/
+.features-title .title {
+  color: var(--title-text-color);
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.features-title .lead {
+  color: var(--paragraph-text-color);
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/*Чем мы занимаемся*/
+.work-list {
+  color: var(--title-text-color);
+  width: 376px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Наша команда*/
+.content-list {
+  color: var(--title-text-color);
+  width: 264px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 7;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.content-list .title {
+  color: var(--title-text-color);
+  width: 151px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.content-list.lead {
+  color: var(--paragraph-text-color);
+  width: 87px;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Стили для portfolio.html*/
+
+.button {
+  color: var(--primary-text-color);
+  background-color: #2196f3;
+}
+
+.img-link.title {
+  color: var(--title-text-color);
+  width: 322px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.img-link.lead {
+  color: var(--paragraph-text-color);
+  width: 322px;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
