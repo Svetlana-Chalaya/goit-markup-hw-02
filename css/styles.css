@@ -9,10 +9,9 @@ body {
   color: var(--title-text-color);
   background-color: var(--primary-text-color);
 }
-
-/* цвет заглавного текста */
-/* цвет титульного текста */
-/* цвет для абзацев */
+/* цвет заглавного текста #ffffff */
+/* цвет титульного текста #212121 */
+/* цвет для абзацев #757575*/
 /* акцент  #2196F3; */
 /* цвет ссылок color: rgba(255, 255, 255, 0.6); */
 
@@ -25,40 +24,74 @@ ul {
 
 .logo {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-text {
   color: #000000;
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* Навигация по сайту */
+
 .site-nav .link.current {
   color: var(--accent-color);
+  width: 76px;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 /*Стили для index.html*/
 /*Hero*/
 
 .hero-title {
-  color: var(--paragraph-text-color);
+  color: var(--primary-text-color);
   background-color: #2f303a;
+  width: 696px;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*Характеристика*/
 .features-title .title {
   color: var(--title-text-color);
   width: 270px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .features-title .lead {
   color: var(--paragraph-text-color);
   position: absolute;
   width: 270px;
-  height: 75px;
-  left: 1115px;
-  top: 800px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -68,6 +101,8 @@ ul {
 .work-list {
   color: var(--title-text-color);
   width: 376px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -79,6 +114,8 @@ ul {
 .content-list {
   color: var(--title-text-color);
   width: 264px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 7;
@@ -89,6 +126,8 @@ ul {
 .content-list .title {
   color: var(--title-text-color);
   width: 151px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -99,6 +138,9 @@ ul {
 .content-list.lead {
   color: var(--paragraph-text-color);
   width: 87px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -110,11 +152,14 @@ ul {
 .button {
   color: var(--primary-text-color);
   background-color: #2196f3;
+  width: 73px;
 }
 
 .img-link.title {
   color: var(--title-text-color);
   width: 322px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -124,6 +169,9 @@ ul {
 .img-link.lead {
   color: var(--paragraph-text-color);
   width: 322px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
