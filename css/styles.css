@@ -22,6 +22,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway;
@@ -55,6 +59,38 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.link-portfolio {
+  color: var(--title-text-color);
+  width: 76px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.link-contact {
+  color: var(--title-text-color);
+  width: 68px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.mail {
+  color: var(--accent-color);
+  width: 135px;
+}
+
+.tel {
+  color: var(--paragraph-text-color);
+  width: 122px;
+}
+
 /*Стили для index.html*/
 /*Hero*/
 
@@ -70,6 +106,13 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+/*Button*/
+
+.button-primary {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+  width: 200px;
 }
 
 /*Характеристика*/
@@ -149,12 +192,27 @@ ul {
 
 /*Стили для portfolio.html*/
 
-.button {
+/*Site-nav*/
+
+.link-studio {
+  color: var(--title-text-color);
+  width: 49px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+/*Button*/
+.button-one {
   color: var(--primary-text-color);
   background-color: #2196f3;
   width: 73px;
 }
 
+/*img-link*/
 .img-link.title {
   color: var(--title-text-color);
   width: 322px;
