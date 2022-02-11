@@ -117,7 +117,7 @@ a {
 }
 
 /*Характеристика*/
-.features-title .title {
+.feature .title {
   color: var(--title-text-color);
   width: 270px;
   font-family: Roboto;
@@ -129,9 +129,8 @@ a {
   text-transform: uppercase;
 }
 
-.features-title .lead {
+.feature .lead {
   color: var(--paragraph-text-color);
-  position: absolute;
   width: 270px;
   font-family: Roboto;
   font-style: normal;
@@ -167,7 +166,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.content-list .title {
+.content .title {
   color: var(--title-text-color);
   width: 151px;
   font-family: Roboto;
@@ -179,7 +178,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.content-list.lead {
+.content.lead {
   color: var(--paragraph-text-color);
   width: 87px;
   font-family: Roboto;
