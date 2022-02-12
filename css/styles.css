@@ -6,8 +6,18 @@
 }
 
 body {
+  font-family: "Roboto", "Open Sans", sans-serif;
   color: var(--title-text-color);
   background-color: var(--primary-text-color);
+}
+
+body > button {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+body > a {
+  font-family: "Roboto", "Open Sans", sans-serif;
 }
 
 /* цвет заглавного текста #ffffff */
@@ -28,7 +38,7 @@ a {
 }
 
 .logo {
-  color: var(--accent-color);
+  color: #000000;
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -38,7 +48,7 @@ a {
 }
 
 .logo-text {
-  color: #000000;
+  color: var(--accent-color);
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -51,8 +61,7 @@ a {
 
 .site-nav .link.current {
   color: var(--accent-color);
-  width: 76px;
-  font-family: Roboto;
+  width: 49px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -60,10 +69,14 @@ a {
   letter-spacing: 0.02em;
 }
 
+.site-nav .link.current:hover,
+.site-nav .link.current:focus {
+  color: var(--accent-color);
+}
+
 .link-portfolio {
   color: var(--title-text-color);
   width: 76px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -74,7 +87,6 @@ a {
 .link-contact {
   color: var(--title-text-color);
   width: 68px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -82,24 +94,35 @@ a {
   letter-spacing: 0.02em;
 }
 
-.mail {
-  color: var(--accent-color);
+.mailto {
+  color: var(--paragraph-text-color);
   width: 135px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
-.tel {
+.mailto:hover,
+.mailto:focus {
+  color: var(--accent-color);
+}
+
+.phone {
   color: var(--paragraph-text-color);
   width: 122px;
 }
 
 /*Стили для index.html*/
 /*Hero*/
+.hero {
+  background-color: #2f303a;
+}
 
 .hero-title {
   color: var(--primary-text-color);
-  background-color: #2f303a;
   width: 696px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -118,9 +141,6 @@ a {
 
 /*Характеристика*/
 .feature .title {
-  color: var(--title-text-color);
-  width: 270px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -131,10 +151,6 @@ a {
 
 .feature .lead {
   color: var(--paragraph-text-color);
-  width: 270px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -142,9 +158,6 @@ a {
 
 /*Чем мы занимаемся*/
 .work-list {
-  color: var(--title-text-color);
-  width: 376px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -154,22 +167,20 @@ a {
 }
 
 /*Наша команда*/
+.content {
+  background-color: #f5f4fa;
+}
+
 .content-list {
-  color: var(--title-text-color);
-  width: 264px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 7;
+  line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .content .title {
-  color: var(--title-text-color);
-  width: 151px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -180,10 +191,6 @@ a {
 
 .content.lead {
   color: var(--paragraph-text-color);
-  width: 87px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -191,13 +198,43 @@ a {
 }
 
 /*Футер разметка*/
-.address {
+footer {
+  background-color: #2f303a;
+}
+
+.search {
+  color: var(--primary-text-color);
   width: 231px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.box-mailto {
+  color: var(--primary-text-color);
+  width: 231px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.box-mailto {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.box-phone {
+  color: var(--primary-text-color);
+  width: 231px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.box-phone {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -208,7 +245,6 @@ a {
 .link-studio {
   color: var(--title-text-color);
   width: 49px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -219,7 +255,6 @@ a {
 /*Button*/
 .button {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -228,16 +263,16 @@ a {
   letter-spacing: 0.03em;
 }
 
-.button :hover,
-.butten :focus {
+.button:hover,
+.butten:focus {
   background-color: var(--accent-color);
 }
 
+/*Список*/
 /*img-link*/
 .img-link.title {
   color: var(--title-text-color);
   width: 322px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -248,7 +283,6 @@ a {
 .img-link.lead {
   color: var(--paragraph-text-color);
   width: 322px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
