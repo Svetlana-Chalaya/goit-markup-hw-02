@@ -39,6 +39,7 @@ a {
 
 .logo {
   color: #000000;
+  width: 145px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -49,6 +50,7 @@ a {
 
 .logo-text {
   color: var(--accent-color);
+  width: 145px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -137,6 +139,14 @@ a {
   color: var(--primary-text-color);
   background-color: var(--accent-color);
   width: 200px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /*Характеристика*/
@@ -149,8 +159,9 @@ a {
   text-transform: uppercase;
 }
 
-.feature .lead {
+.subject {
   color: var(--paragraph-text-color);
+  width: 270px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -159,7 +170,7 @@ a {
 /*Чем мы занимаемся*/
 .work-list {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
@@ -189,8 +200,10 @@ a {
   letter-spacing: 0.03em;
 }
 
-.content.lead {
+.lead {
   color: var(--paragraph-text-color);
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -200,6 +213,17 @@ a {
 /*Футер разметка*/
 footer {
   background-color: #2f303a;
+}
+
+.logo-studio {
+  color: var(--primary-text-color);
+  width: 145px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .search {
@@ -212,7 +236,7 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.box-mailto {
+.box {
   color: var(--primary-text-color);
   width: 231px;
   font-style: normal;
@@ -221,20 +245,7 @@ footer {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.box-mailto {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.box-phone {
-  color: var(--primary-text-color);
-  width: 231px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-}
-.box-phone {
+.box {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -264,13 +275,18 @@ footer {
 }
 
 .button:hover,
-.butten:focus {
+.button:focus {
+  background-color: F5F4FA;
+}
+
+.button-btn:hover,
+.butten-btn:focus {
   background-color: var(--accent-color);
 }
 
 /*Список*/
 /*img-link*/
-.img-link.title {
+.img-link .title {
   color: var(--title-text-color);
   width: 322px;
   font-style: normal;
@@ -280,7 +296,7 @@ footer {
   letter-spacing: 0.06em;
 }
 
-.img-link.lead {
+.caption {
   color: var(--paragraph-text-color);
   width: 322px;
   font-style: normal;
