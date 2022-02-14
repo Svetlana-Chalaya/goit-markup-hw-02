@@ -11,11 +11,6 @@ body {
   background-color: var(--primary-text-color);
 }
 
-.button {
-  font-family: "Roboto", "Open Sans", sans-serif;
-  cursor: pointer;
-}
-
 body > a {
   font-family: "Roboto", "Open Sans", sans-serif;
 }
@@ -62,7 +57,7 @@ a {
 /* Навигация по сайту */
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: var(--title-text-color);
   width: 49px;
   font-style: normal;
   font-weight: 500;
@@ -86,6 +81,11 @@ a {
   letter-spacing: 0.02em;
 }
 
+.link-portfolio:hover,
+.link-portfolio:focus {
+  color: var(--accent-color);
+}
+
 .link-contact {
   color: var(--title-text-color);
   width: 68px;
@@ -94,6 +94,10 @@ a {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+}
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--accent-color);
 }
 
 .mailto {
@@ -116,6 +120,11 @@ a {
   width: 122px;
 }
 
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+
 /*Стили для index.html*/
 /*Hero*/
 .hero {
@@ -125,7 +134,6 @@ a {
 .hero-title {
   color: var(--primary-text-color);
   width: 696px;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -155,7 +163,6 @@ a {
 
 /*Характеристика*/
 .feature .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -173,7 +180,6 @@ a {
 
 /*Чем мы занимаемся*/
 .work-list {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -187,7 +193,6 @@ a {
 }
 
 .content-list {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -196,7 +201,6 @@ a {
 }
 
 .content .title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -206,7 +210,6 @@ a {
 
 .lead {
   color: var(--paragraph-text-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -280,11 +283,13 @@ footer {
 
 .button:hover,
 .button:focus {
+  color: var(--primary-text-color);
   background-color: F5F4FA;
 }
 
 .button-btn:hover,
 .butten-btn:focus {
+  color: var(--primary-text-color);
   background-color: var(--accent-color);
 }
 
