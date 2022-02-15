@@ -6,13 +6,15 @@
 }
 
 body {
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--title-text-color);
   background-color: var(--primary-text-color);
 }
 
 body > a {
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* цвет заглавного текста #ffffff */
@@ -56,8 +58,8 @@ a {
 
 /* Навигация по сайту */
 
-.site-nav .link.current {
-  color: var(--title-text-color);
+.link-current {
+  color: var(--accent-color);
   width: 49px;
   font-style: normal;
   font-weight: 500;
@@ -66,8 +68,8 @@ a {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link.current:hover,
-.site-nav .link.current:focus {
+.link.current:hover,
+.link.current:focus {
   color: var(--accent-color);
 }
 
@@ -118,6 +120,11 @@ a {
 .phone {
   color: var(--paragraph-text-color);
   width: 122px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .phone:hover,
@@ -143,7 +150,8 @@ a {
 }
 /*Button*/
 .button {
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   cursor: pointer;
 }
 
@@ -161,6 +169,11 @@ a {
   letter-spacing: 0.06em;
 }
 
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #188ce8;
+}
+
 /*Характеристика*/
 .feature .title {
   font-weight: 700;
@@ -172,7 +185,6 @@ a {
 
 .subject {
   color: var(--paragraph-text-color);
-  width: 270px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -259,8 +271,7 @@ footer {
 /*Стили для portfolio.html*/
 
 /*Site-nav*/
-
-.link-studio {
+.link-current-one {
   color: var(--title-text-color);
   width: 49px;
   font-style: normal;
@@ -270,10 +281,30 @@ footer {
   letter-spacing: 0.02em;
 }
 
+.link-current-one:hover,
+.link-current-one:focus {
+  color: var(--accent-color);
+}
+
+.link-portfolio-one {
+  color: var(--accent-color);
+  width: 76px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.link-portfolio-one:hover,
+.link-portfolio-one:focus {
+  color: var(--accent-color);
+}
+
 /*Button*/
 .button {
   color: var(--title-text-color);
-  font-style: normal;
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -284,7 +315,7 @@ footer {
 .button:hover,
 .button:focus {
   color: var(--primary-text-color);
-  background-color: F5F4FA;
+  background-color: var(--accent-color);
 }
 
 .button-btn:hover,
